@@ -2,11 +2,6 @@
 [![license badge](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 ## This README generator will help you to create quick and easy READMEs for your projects. Just simply run the program and answer the prompts, and this will generate a beautiful README every time!
 
-To go into more detail, refer to these questions:
-- What was your motivation?
-- Why did you build this project?
-- What problem does it solve?
-- What did you learn?
 
 ## Table of Contents
  
@@ -46,8 +41,8 @@ Special thanks to Erik Hirsch, my tutor, for the additional guidance
 ## Questions
 
 Reach out to me if you have any questions!
-- Github: tayskully
-- LinkedIn: taysully
+- Github: [tayskully](https://github.com/tayskully)
+- LinkedIn: [taylordaniellesullivan](https://www.linkedin.com/in/taylordaniellesullivan/)
 - Email: taysully94@gmail.com
 
 ---

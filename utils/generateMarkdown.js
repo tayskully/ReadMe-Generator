@@ -67,7 +67,7 @@ To go into more detail, refer to these questions:
 
 ${data.installation}
 
-## Usage
+## Usage/Tests
 
 ${data.instructions}
 

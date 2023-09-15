@@ -40,7 +40,7 @@ const questions = [
       },
       {
         type: "input", 
-        message: "What are the instructions to use the project?",
+        message: "What are the instructions to use and test the project?",
         name: "instructions",
       },
       {

@@ -15,7 +15,7 @@
 
 In order to run this generator, you must have Node installed, and be able to access files in your device’s terminal. 
 
-## Usage/ Tests
+## Usage/Tests
 
 To get started, run the index.js in node and go through the prompts in your terminal, as I am doing right now to generate this very README! Once you’re finished, a fully generated README.md file will be added to your repo. Be sure to check it out and add additional information if needed! I for one kept some notes in there to remind me to add as much information as possible. 
 

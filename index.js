@@ -45,26 +45,25 @@ const questions = [
       },
       {
         type: "input",
-        message: "Would you like to add additional collaborators?",
+        message: "Who were your additional collaborators? If none, hit enter",
         name: "collab",
+      },
+      {
+        type: "input",
+        message: "Who would you like to give a shout out to?",
+        name: "shoutout",
       },
     {
       type: "list",
       message: "Which License does your project you use?",
       name: "license",
-      choices: ["MIT", " ", " "],
-    },
-    {
-        type: "list",
-        message: "Which badge would you like to add?",
-        name: "badge",
-        choices: [" ", " "],
-      },
+      choices: ["MIT", "Apache", "GNU", "No License"],
+    }
 ];
 
 
 //functions========================================
-// TODO: Create a function to write README file
+// Creates a function to write README file
 function writeToFile(fileName, data) {
 let markDown = generateMarkdown(data)
 
@@ -72,7 +71,7 @@ fs.writeFile(fileName, markDown, (err)=>
 err ? console.log (err) : console.log('success!!!'))
 }
 
-// TODO: Create a function to initialize app
+//Creates a function to initialize app
 function init() {
     inquirer
   inquirer.prompt(questions)
@@ -91,27 +90,5 @@ function init() {
   });
 }
 
-// Function call to initialize app
+//calls to initialize app
 init();
-
-
-
-//notes 
-//from mini project 
-//write the file
-///pull out object that's passed into the function with object destructuring !!!!
-//useful to move the long file writing function to a new page because it's a lot of lines of code-- how to lonk - "module.exports = generateHTML;""
-//then add a const generateHTML =  require('./utils/generateHTML.js'); to the other page to link them
-
-//break up the chunks of generated content into render funcitons like the guide says, break up sections and put the funtion in the template literal, 
-///if statements == if !github retune '' empy string, else return `~actual code~`/// 
-//support functions 
-
-//licensing , you don't need it in the readme , just say what kind of license it is- standard types. 
-//should be a link in the table of contents to link down - function to check if there is a licence, then if so add the link to jump down to it 
-//option for none perhaps!!!
-
-//badges are images,  
-
-
-// make a codeblock in markdown ```npm i``` markdown language , but if adding inside of a backtic string you gotta do \`\`\`npm i \`\`\`
